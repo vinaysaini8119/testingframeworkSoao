@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="webTests" duration-ms="9575" started-at="2018-04-16T09:14:03Z" finished-at="2018-04-16T09:14:13Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="BaseClassCucumber.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="feature" class="com.sapient.taf.framework.coreclasses.BaseClassCucumber"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Verify Soap Response" duration-ms="9575" started-at="2018-04-16T09:14:03Z" finished-at="2018-04-16T09:14:13Z">
+      <class name="com.runner.SoapRunner">
+        <test-method status="PASS" signature="test(org.testng.ITestContext)[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="test" is-config="true" duration-ms="300" started-at="2018-04-16T14:44:03Z" finished-at="2018-04-16T14:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d23faef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="start(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="start" is-config="true" duration-ms="3018" started-at="2018-04-16T14:44:03Z" finished-at="2018-04-16T14:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sapient.taf.framework.coreclasses.BaseClassCucumber.feature(cucumber.api.testng.CucumberFeatureWrapper)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=BaseClassCucumber.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.SoapRunner@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="feature" duration-ms="5071" started-at="2018-04-16T14:44:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-04-16T14:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Soap response]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="end" is-config="true" duration-ms="671" started-at="2018-04-16T14:44:11Z" finished-at="2018-04-16T14:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="end2()[pri:0, instance:com.runner.SoapRunner@5a8806ef]" name="end2" is-config="true" duration-ms="401" started-at="2018-04-16T14:44:12Z" finished-at="2018-04-16T14:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end2 -->
+      </class> <!-- com.runner.SoapRunner -->
+    </test> <!-- Verify Soap Response -->
+  </suite> <!-- webTests -->
+</testng-results>

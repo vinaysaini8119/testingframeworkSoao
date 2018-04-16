@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Transfer Funds Suite]">
+  <parameter name="report" value="Extent"/>
+  <listeners>
+    <listener class-name="com.sapient.taf.listeners.TestListener"/>
+  </listeners>
+  <test name="Verify Transfer Funds Negative(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.app.web.tests.TransferFundsTestNegative">
+        <methods>
+          <include name="transferFunds_Negative"/>
+        </methods>
+      </class> <!-- com.app.web.tests.TransferFundsTestNegative -->
+    </classes>
+  </test> <!-- Verify Transfer Funds Negative(failed) -->
+</suite> <!-- Failed suite [Transfer Funds Suite] -->

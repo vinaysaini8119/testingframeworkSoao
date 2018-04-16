@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [webTests]">
+  <parameter name="report" value="Extent"/>
+  <listeners>
+    <listener class-name="com.sapient.taf.cucumber.TestNGExecutionListener"/>
+  </listeners>
+  <test name="Verify Soap Response(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.runner.SoapRunner">
+        <methods>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="test"/>
+          <include name="end2"/>
+          <include name="start"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.runner.SoapRunner -->
+    </classes>
+  </test> <!-- Verify Soap Response(failed) -->
+</suite> <!-- Failed suite [webTests] -->
